@@ -4,13 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MiniRace"
+        ResizeMode="NoResize"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="350" KeyDown="Window_KeyDown" KeyUp="Window_KeyUp">
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="raceArea.png" TileMode="Tile" Stretch="UniformToFill"/>
         </Grid.Background>
-
 
         <Rectangle x:Name="line1" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="90" Stroke="Black" VerticalAlignment="Top" Width="10" Margin="120,0,214,0"/>
         <Rectangle x:Name="line2" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="90" Stroke="Black" VerticalAlignment="Top" Width="10" Margin="120,145,214,0"/>
@@ -40,7 +40,7 @@
 
         </Grid>
         <Button x:Name="startButton" Content="Rozpocznij grę" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="60" Click="startButton_Click" />
-        <Label x:Name="gameOverLabel" Content="Przegrałeś" Visibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" Height="45" Foreground="White" FontSize="20" Margin="125,119,119,0" FontFamily="Impact"/>
+        <Label x:Name="gameOverLabel" Content="Przegrałeś" Visibility="Hidden" HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Width="100" Height="45" Foreground="White" FontSize="20" Margin="125,119,119,0" FontFamily="Impact"/>
         <Button x:Name="restartButton" Visibility="Hidden" Content="Zagraj ponownie" HorizontalAlignment="Center" VerticalAlignment="Center" Width="150" Height="60" Margin="97,180" Click="RestartButton_Click" />
     </Grid>
 </Window>

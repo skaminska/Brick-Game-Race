@@ -10,6 +10,5 @@ F:\projekty\MiniRace\MiniRace\obj\Debug\MainWindow.baml
 F:\projekty\MiniRace\MiniRace\obj\Debug\MiniRace.g.resources
 F:\projekty\MiniRace\MiniRace\obj\Debug\MiniRace.Properties.Resources.resources
 F:\projekty\MiniRace\MiniRace\obj\Debug\MiniRace.csproj.GenerateResource.cache
-F:\projekty\MiniRace\MiniRace\obj\Debug\MiniRace.csproj.CoreCompileInputs.cache
 F:\projekty\MiniRace\MiniRace\obj\Debug\MiniRace.exe
 F:\projekty\MiniRace\MiniRace\obj\Debug\MiniRace.pdb
